@@ -105,7 +105,7 @@ dev.ipynb
 
 # not ready
 videos/
-templates/
+#templates/
 data/ssd_dataloader.py
 data/datasets/
 doc/visualize.py
@@ -136,7 +136,7 @@ data/VOCdevkit/
 data/coco/images/
 data/coco/annotations/
 ap_data.pkl
-results/
+#results/
 logs/
 scripts/aws/
 scripts/gt.npy

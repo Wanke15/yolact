@@ -1,0 +1,21 @@
+{% for message in get_flashed_messages() %}
+         <font color="red">{{ message }}</font>
+{% endfor %}
+</br></br>
+<form method="POST" enctype="multipart/form-data" action="/">
+      Top_k: <input type="text" name="top_k">
+      Threshold: <input type="text" name="threshold">
+      <input type="file" name="file" id="file">
+      <input type="submit" value="上传">
+</form>
+</br>
+<table>
+<tr>
+<td>
+<a><img src="{{ source_img }}" width="480"></a>
+</td>
+<td>
+<a><img src="{{ res_img }}" width="480"></a>
+</td>
+</tr>
+</table>
